@@ -1,13 +1,12 @@
-import AddTask from './Components/AddTask';
-import ListTask from './Components/ListTask';
-import Task from './Components/Task';
+import React from "react";
+import Task from "./Components/Task";
+import TaskList from "./Components/TaskList";
 
 function App() {
   return (
-    <div>
-      <AddTask />
-      <Task/>
-      <ListTask />
+    <div className="App">
+      <Task />
+      <TaskList />
     </div>
   );
 }
